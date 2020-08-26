@@ -2,6 +2,16 @@ import numpy as np
 import math
 
 def selection_sort(arr):
+    """
+    Performs a selection sort algorithm
+    - Time complexity: O(n²)
+
+    Args:
+        arr (list): List to sort
+
+    Returns:
+        (list): Sorted list
+    """
     i = 0
     while i < len(arr):
         j = i

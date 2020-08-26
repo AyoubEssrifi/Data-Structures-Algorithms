@@ -1,6 +1,15 @@
 import numpy as np
 
 def bubble_sort(arr):
+    """
+    Performs a bubble sort algorithm
+    - Time complexity: O(n²)
+    Args:
+        arr (list): List to sort
+
+    Returns:
+        (list): Sorted list
+    """
     j = len(arr) - 1
     while j >= 0:
         i = 0
