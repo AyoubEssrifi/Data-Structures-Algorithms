@@ -17,6 +17,7 @@ def selection_sort(arr):
         i += 1
     return arr
 
+# Testing
 for i in range(100):
     arr = list(np.random.randint(1,100,100))
     sorted_arr = selection_sort(arr)
