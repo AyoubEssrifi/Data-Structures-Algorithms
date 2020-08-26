@@ -4,6 +4,7 @@ def bubble_sort(arr):
     """
     Performs a bubble sort algorithm
     - Time complexity: O(n²)
+    
     Args:
         arr (list): List to sort
 
